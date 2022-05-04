@@ -38,7 +38,7 @@ blocks:
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frequency
+    label: ''
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
@@ -59,14 +59,14 @@ blocks:
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frequency
+    label: ''
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: '1000'
     step: '1000'
     stop: '4000000'
-    value: '1296000'
+    value: '129600'
     widget: counter_slider
   states:
     bus_sink: false
@@ -80,7 +80,7 @@ blocks:
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frequency
+    label: ''
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
@@ -101,13 +101,13 @@ blocks:
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frequency
+    label: ''
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: '1000'
     step: '10000'
-    stop: '40000000'
+    stop: '4000000'
     value: '25000'
     widget: counter_slider
   states:
